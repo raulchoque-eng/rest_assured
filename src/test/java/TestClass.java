@@ -15,17 +15,6 @@ import static org.hamcrest.Matchers.*;
 public class TestClass {
 
     @Test
-    public void test_NumberOfCircuitsFor2017Season_ShouldBe20() {
-
-        given().
-                when().
-                get("https://jsonplaceholder.typicode.com/todos/1");
-//                then().
-//                assertThat().
-//                body("MRData.CircuitTable.Circuits.circuitId",hasSize(20));
-    }
-
-    @Test
     public void test_getAlbumsById1StatusCode_ShoudBe200() {
         String stCode = "";
 
